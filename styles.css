@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+    background-color: #05d603;
+  }
+  
+  #container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #myVideo {
+    position: absolute;
+    width: 100px; /* Adjust according to your video size */
+    height: auto;
+    pointer-events: none; /* To ensure the video doesn't interfere with cursor */
+  }
+  
